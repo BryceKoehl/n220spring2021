@@ -1,5 +1,6 @@
 //1 - Greeter
 
-function hello(){
-    console.log()
-}
+function sConsole() {
+    var data = document.getElementById("yourName");
+    console.log(yourName.value());
+  }
