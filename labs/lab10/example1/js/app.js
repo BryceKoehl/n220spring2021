@@ -1,4 +1,4 @@
-//1 - Peak Pixels
+//1 - it's just average
 
 let dvRect = document.getElementById("rect");
 

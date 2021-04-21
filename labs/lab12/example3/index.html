@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <style>
+        .rect{
+            height: 200px;
+            width: 200px;
+            float: left;
+            margin: 5px;
+            background-color: lightgray;
+        }
+
+        .blank{
+            height: 200px;
+            width: 200px;
+            float: left;
+            margin: 5px;
+            background-color: white;
+        }
+
+        #dvAnswer{
+            height: 200px;
+            width: 200px;
+            float: left;
+            margin: 5px;
+            background-color: lightgray;
+            text-align: center;
+            vertical-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <button class="rect" onclick="getAnswer(event)" data-answer = "No"> Is Java a type of OS?</button>
+    <button class="rect" onclick="getAnswer(event)" data-answer = "HyperText Transfer Protocol">What does “HTTP” stand for?</button>
+    <button class="rect"  onclick="getAnswer(event)" data-answer = "Jupiter">Which planet has the most gravity?</button>
+    <div class="blank"></div>
+    <button id="dvAnswer"></button>
+
+<script src="js/app.js"></script>
+</body>
+</html>
